@@ -6,14 +6,24 @@ const Heading=()=>{
     return (
     <>
         <div>
-        <h3>make your body fit this spring with us</h3>
-
-        <h1>improve your fitness level for the better </h1>
+        <h3>MAKE YOUR BODY FIT THIS  SPRING WITH US</h3>
+        <h1>IMPRUVE YOUR FITNESS LEVEL FOR THE BETTER </h1>
+    
         
-        <button>train me</button>
-
-
+         <button>train me</button>
+    <div className="row">
+        <div className="column">
+            <img src="./images/first.png" className ="home1" alt=""/>
+            
         </div>
+        <div className="column">
+             <img src="./images/second.png" className ="home2" alt=""/>  
+        </div>
+        
+        </div>
+    </div>
+
+
 
      </>
 
